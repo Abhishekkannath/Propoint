@@ -332,11 +332,12 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #ffffff;
+  color: #bfebf8;
 }
 
 a:hover, a:focus, a:active {
-  color: #37788d;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .btn-primary {
