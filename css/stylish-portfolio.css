@@ -97,7 +97,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: #d8ff00;
+  background: rgb(43,235,155);
+  background: linear-gradient(0deg, rgba(43,235,155,1) 0%, rgba(0,0,0,1) 51%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,8 +132,8 @@ h3{
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #ffffff;
-  border-left: 1px solid #e7ff00;
+  background: rgb(43,235,155);
+  border-left: 1px solid rgb(43,235,155);
 }
 
 .sidebar-nav {
@@ -147,13 +148,13 @@ h3{
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #e7ff00;
+  color: #000000;
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -210,7 +211,7 @@ h3{
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: rgb(43,235,155);
   height: 7rem;
   width: 7rem;
   display: block;
@@ -246,7 +247,7 @@ h3{
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(35, 115, 194, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -298,7 +299,7 @@ h3{
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(58, 223, 127, 0.575);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -321,18 +322,18 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: rgb(43,235,155);
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #adb7bb;
   text-decoration: none;
 }
 
 a {
-  color: #bfebf8;
+  color: rgb(255, 255, 255);
 }
 
 a:hover, a:focus, a:active {
@@ -341,15 +342,15 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #ffffff!important;
-  border-color: #e7ff00 !important;
-  color: #d2e433 !important;
+  background-color: rgb(43,235,155)!important;
+  border-color: rgb(28, 129, 87)!important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #e7ff00 !important;
-  border-color: #ffffff !important;
-  color: #ffffff !important;
+  background-color: #38ea9b!important;
+  border-color: rgb(220, 238, 230)!important;
+  color: rgba(255, 255, 255, 0.788) !important;
 }
 
 .btn-secondary {
@@ -373,7 +374,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #00ff8c !important;
 }
 
 .text-primary {
@@ -381,5 +382,5 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #000000 !important;
 }
